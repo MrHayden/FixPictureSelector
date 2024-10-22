@@ -36,8 +36,11 @@ repositories {
 }
 
 dependencies {
+   // 请使用本依赖替换下面的基础
+  implementation 'com.github.MrHayden:PictureSelectorFix:v1.0.0'
+  
   // PictureSelector 基础 (必须)
-  implementation 'io.github.lucksiege:pictureselector:v3.11.2'
+  // implementation 'io.github.lucksiege:pictureselector:v3.11.2'
 
   // 图片压缩 (按需引入)
   implementation 'io.github.lucksiege:compress:v3.11.2'

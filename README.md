@@ -34,8 +34,11 @@ repositories {
 }
 
 dependencies {
+  // please use library
+  implementation 'com.github.MrHayden:PictureSelectorFix:v1.0.0'
+  
   // PictureSelector basic (Necessary)
-  implementation 'io.github.lucksiege:pictureselector:v3.11.2'
+  // implementation 'io.github.lucksiege:pictureselector:v3.11.2'
 
   // image compress library (Not necessary)
   implementation 'io.github.lucksiege:compress:v3.11.2'
